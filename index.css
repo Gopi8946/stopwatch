@@ -1,0 +1,43 @@
+body {
+    background-image: url("lighthouse.jpg");
+    background-size:auto;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:rgb(255, 255, 255)
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer; /* Add this to show it's clickable */
+    position: relative; /* Add this */
+    z-index: 10;
+}
+
+#increment-btn {
+    background: rgb(134, 229, 207);
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
